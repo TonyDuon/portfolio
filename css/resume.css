@@ -837,21 +837,24 @@ a:hover, a:focus, a:active {
   border-bottom-color: #ebccd1;
 }
 
-.basicboot.skillContainer{
-    
-    width:100%;
+.basicboot.skill.col-md-3 {
+    width: 24%;
 }
 
 .basicboot.skill {
     display:inline-block;
-    margin-bottom: 40px;
-    margin-left: 20px;
-    margin-right:90px;
+/*
+    margin-bottom: 20px;
+    margin-left: 7px;
+    margin-right: 7px;
+*/
+
 }
 
-.basicboot.container{
+.basicboot.skillContainer{
     margin:0px;
     padding:0px;
+    text-align: center;
 }
 
 .myIcon {
@@ -866,3 +869,8 @@ a:hover, a:focus, a:active {
 /*    color: #108800;*/
 }
 
+ul {
+  list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
